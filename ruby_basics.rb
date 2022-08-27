@@ -211,3 +211,25 @@ elsif string.length < 5
 else
     p 'just right'
 end
+
+a = 1
+
+until a > 10 do
+    x = 'time through'
+    b = ''
+    if a == 1
+        b = 'st'
+    elsif a == 2
+        b = 'nd'
+    elsif a == 3
+        b = 'rd'
+    else
+        b = 'th'
+    end
+    p "#{a}#{b} #{x}"
+    a+=1
+end
+
+for i in 20..40 do
+    puts i
+end
